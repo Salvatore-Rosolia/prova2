@@ -1,0 +1,205 @@
+#barra_navigazione {
+    display:flex;
+    justify-content: space-between;
+    background-color: #1c1d21;  
+}
+
+div a {
+    font-size: x-large;
+    color:rgb(253, 147, 1);
+   padding-right:  30px;
+   padding-top: 40px;
+   font-family: 'Dela Gothic One', cursive;
+   text-decoration: underline;
+}
+
+nav div{
+   display: flex;
+   justify-content: flex-end;
+}
+
+#Logo img{
+   height: 100px;
+}
+#nome_pagina{
+    color: black;
+    text-align: center;
+    margin: 1%;
+    padding: 4%;
+    border: 3px solid black;
+    border-radius: 100px;
+    background-color:rgb(253, 147, 1);
+}
+
+#title_pr{
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+}
+
+#barra_ricerca{
+    margin : 2%;
+}
+
+#ricerca{
+    display: flex;
+    justify-content:space-around;
+}
+
+#preferiti {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#mega_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.box_preferiti
+{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.elemento {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+    border:  outset;
+    border-radius: 2mm;
+    width: 30%;
+}
+
+.prezzo{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding-left: 2%;
+    width: 150%;
+}
+.segno_pre{
+    margin-right : 2%;
+    width: 10%; 
+}
+.top_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.top_item h1{
+    font-family: 'Nunito', sans-serif, bold;
+    padding-left: 2%;
+    width: 150%;
+}
+
+.top_item .buttom{
+    margin: 5%;
+}
+
+.hidden{
+    display: none;
+}
+
+button{
+    
+    font-family: 'Nunito', sans-serif;
+}
+
+.info_estese{
+    font-family: 'Nunito', sans-serif;
+}
+
+.image_box{
+    width: 80%;
+}
+
+#fine{
+    display:flex;
+    flex-direction: row;
+    background-color: #1c1d21;
+}
+
+#end_part{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
+}
+
+#contatti{
+    font-size: x-large;
+    color:rgb(253, 147, 1);
+    font-family: 'Dela Gothic One', cursive;
+    text-decoration: underline;
+}
+
+#informazioni {
+    display: flex;
+    justify-content: space-around;
+}
+
+#informazioni p {
+    color:rgb(253, 147, 1);
+}
+
+.rigo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.rigo img{
+    height: 35px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#end_part2 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 20%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#end_part2 img{
+    width: 50px;
+}
+
+@media (max-width: 500px){
+
+    #barra_navigazione{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    header {
+        width: 150%;
+    }
+
+    #preferiti{
+        width:150%;
+    }
+
+    #mega_box{
+        width:150%;
+    }
+
+    nav div {
+        font-size: x-small;
+        flex-wrap: wrap;
+    }
+    
+    .elemento{
+        width: 45%;
+    }
+	
+	#fine{
+		width:150%;
+	}
+}
